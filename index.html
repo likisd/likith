@@ -1,24 +1,19 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hi Kanda, I love you so much. Do you love me, huh?</title>
+    <title>Love Message</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>kandamma do you love me?</h1>
-        <div class="heart">❤</div>
-        <p>ninna bit iroke agolla kanda and I’d love to take you out for a walk, a special walk.</p>
-        
-        <a href="#" class="button" onclick="showMessage('I love you more my rupanzel')">Yes</a>
-        <a href="#" class="button" onclick="showGif()">Absolutely Yes</a>
-        
-        <p id="message"></p>
-        <div id="gif-container"></div>
+        <h1>Kandamma says:</h1>
+        <p id="message">I love you so much, Bujjii. Do you love me?</p>
+        <button onclick="respond('yes')">Yes</button>
+        <button onclick="respond('absolutely')">Absolutely Yes</button>
+        <p id="response"></p>
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
